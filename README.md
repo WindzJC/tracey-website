@@ -1,22 +1,37 @@
-# Tracey Young — *CEO of Your Life* (Website Concept)
+# Tracey Young — CEO of Your Life
 
-A responsive, static HTML concept created by Astra Productions for Tracey Young, MEd. This is a **preview** for review, not an approved production website.
+Responsive static author website concept by Astra Productions, prepared for Tracey Young, MEd.
+
+**Status:** Concept preview only. The author has not approved final imagery, interior-book content, biography, or public launch.
 
 ## Cloudflare Pages
 
-- Framework preset: **None**
-- Production branch: **main**
-- Build command: **leave empty**
-- Build output directory: **/** (repository root)
+- Framework: None
+- Production branch: main
+- Build command: (empty)
+- Output directory: repository root (/)
+- Entry point: index.html
+- Automatic deployment from GitHub: enabled once this repository is linked to a Cloudflare Pages project.
 
-Cloudflare Pages serves the root `index.html`. No npm install or build step is required.
+## Design
 
-## Before the final client launch
+Version 2 uses the midnight-blue, ivory and gold palette of the actual cover of *CEO of Your Life*, a direct book-purchase action, accessible navigation, and responsive editorial sections.
 
-- Obtain written approval for final copy, biography, book cover usage and imagery.
-- Replace the illustrated sample workbook prompt with an author-approved excerpt if desired.
-- Obtain an approved professional portrait and preferred author contact channel.
-- Confirm all buying links and add additional approved purchasing options.
-- Remove the `noindex,nofollow` tags, `robots.txt` disallow rule and `_headers` X-Robots-Tag only when the author authorizes publishing and indexing.
+Dependencies: Google Fonts (progressive fallback to Georgia/Segoe UI); all CSS and JS are local. No build tool or package install required.
 
-The displayed book cover is a preview copy of publicly shown book artwork, used for layout demonstration. Confirm author permission before launching a finalized public site.
+## Publication controls and client approval
+
+- index.html, robots.txt and _headers intentionally block search indexing. Keep these in place until client approval.
+- Book cover is included locally for concept presentation. Confirm licensed/author-approved reuse before final publication.
+- Current author section uses a typographic panel instead of a fabricated portrait.
+- No invented workbook pages, testimonials, press coverage, or speaking offers are represented.
+- Product descriptions, intended audiences, June 2026 launch and signed-copy email reflect Tracey's public LinkedIn statements.
+- Verify current buying availability, pricing, signed-copy fulfillment, and author contact preferences before publishing.
+- Obtain author-approved headshot, professional biography, book interior excerpt (optional), and final legal/footer details.
+- Review mobile and desktop behavior, including keyboard navigation, before removing preview labels.
+
+## Sources for factual review
+
+- [Tracey's LinkedIn profile](https://www.linkedin.com/in/tracey-young-med-b9b26b37)
+- [Author's leadership panel announcement](https://www.linkedin.com/posts/tracey-young-med-b9b26b37_book-sigining-for-ceo-of-your-life-activity-7473227186833944577-fmmM)
+- [Author's book description and signed-copy contact](https://www.linkedin.com/posts/tracey-young-med-b9b26b37_ceo-of-your-life-written-in-a-journal-format-activity-7470540155955605504-1LXl)
